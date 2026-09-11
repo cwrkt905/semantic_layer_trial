@@ -13,3 +13,9 @@ Try running the following commands:
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+
+
+### Goal/Purpose
+- The goal is to research dbt function.
+- The sample dataset is referred to:
+    "https://www.timestored.com/data/sample/duckdb"
