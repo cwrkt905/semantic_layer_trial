@@ -17,5 +17,4 @@ Try running the following commands:
 
 ### Goal/Purpose
 - The goal is to research dbt function.
-- The sample dataset is referred to:
-    "https://www.timestored.com/data/sample/duckdb"
+- The sample dataset is referred to: https://www.timestored.com/data/sample/duckdb
