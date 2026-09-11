@@ -1,0 +1,16 @@
+metrics:
+  - name: total_failures
+    description: "Total number of failed banks"
+    type: simple
+    label: "Total Number of Failed Banks"
+    type_params:
+      measure:
+        name: total_failures
+
+  - name: total_assets
+    description: "Total assets of failed banks in millions of dollars"
+    type: simple
+    label: "Total Assets"
+    type_params:
+      measure:
+        name: total_assets

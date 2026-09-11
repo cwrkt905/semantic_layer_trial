@@ -1,0 +1,35 @@
+version: 2
+
+semantic_models:
+  - name: bank_failures
+    description: "Semantic model for failed banks"
+    model: ref('clean_bank_failures')
+
+    defaults:
+      agg_time_dimension: date
+
+    entities:
+      - name: bank_failures
+        type: primary
+        expr: c1
+
+    dimensions:
+      - name: state
+        type: categorical
+        expr: state
+
+      - name: date
+        type: time
+        type_params:
+          time_granularity: day
+
+    measures:
+      - name: total_failures
+        description: "Total number of failed banks"
+        agg: count
+        expr: 1
+
+      - name: total_assets
+        description: "Total assets of failed banks in millions of dollars"
+        agg: sum
+        expr: assets_mil

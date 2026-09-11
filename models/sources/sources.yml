@@ -1,0 +1,7 @@
+sources:
+  - name: duckdb_demo_original
+    database: duckdb_demo_original
+    schema: main
+
+    tables:
+      - name: bank_failures

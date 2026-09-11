@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: clean_bank_failures
+    description: "Bank failure data"
+
+    columns:
+      - name: c1
+        data_type: bigint
+
+      - name: state
+        data_type: varchar
+
+      - name: date
+        data_type: date
+
+      - name: assets_mil
+        data_type: double
