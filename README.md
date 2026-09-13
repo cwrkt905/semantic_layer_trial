@@ -16,6 +16,17 @@ Try running the following commands:
 
 
 ### Goal/Purpose
-- The goal is to research dbt function.
-- The sample dataset is referred to:
-    "https://www.timestored.com/data/sample/duckdb"
+The goal is to research dbt function.
+    - configuration yamls:
+        - profiles.yml (common)
+        - dbt_project.yml (defined by project)
+    - repository structure
+
+### Data
+#### Data Source (Input)
+    - The sample dataset is referred to: https://www.timestored.com/data/sample/duckdb
+    - sample dataset: duckdb-demo.duckdb
+
+#### Target (Output)
+    - In this project, the target dabase is created separately: duckdb-demo-processed.duckdb
+    - It is defined in profiles.yml
