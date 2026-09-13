@@ -17,10 +17,10 @@ Try running the following commands:
 
 ### Goal/Purpose
 The goal is to research dbt function.
-    - configuration yamls:
-        - profiles.yml (common)
-        - dbt_project.yml (defined by project)
-    - repository structure
+- configuration yamls:
+    - profiles.yml (common)
+    - dbt_project.yml (defined by project)
+- repository structure
 
 ### Data
 #### Data Source (Input)
